@@ -15,5 +15,29 @@ html{
 body{
     align-items: center;
     background: linear-gradient(320deg, #eb92be, #eb92bd);
+    display: flex;
+    font-family: 'Dosis';
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
 
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    height: 540px;
+    padding: 20px,35px;
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+}
+
+.calc-button{
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
 }
